@@ -1,6 +1,6 @@
 # 20 React: React Portfolio
 
-## Your Task
+## Your Task is to make a repo better than Trenton's oh wait we already passed that mark
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
