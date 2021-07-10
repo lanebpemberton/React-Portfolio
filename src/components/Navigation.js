@@ -5,7 +5,10 @@ const styles = {
         color:'white'
     },
     links:{
-        marginRight:10
+        marginRight:10,
+        textDecoration:"none",
+        color:"white",
+        fontSize:22
     }
 }
 
@@ -15,9 +18,9 @@ function Navigation()
 
     return (
         <div style={styles.navbar}>
-            <a style={styles.links}>Link 1</a>
-            <a style={styles.links}>Link 2</a>
-            <a>Link 3</a>
+            <a style={styles.links} href="#">Home</a>
+            <a style={styles.links} href="#">About</a>
+            <a style={styles.links} href="#">Projects</a>
         </div>
     );
 }
