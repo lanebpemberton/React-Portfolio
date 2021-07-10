@@ -1,12 +1,37 @@
+@font-face {
+  font-family: 'Exo';
+  src: url('../styles/Fonts/Exo-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../styles/Fonts/Exo-Medium.ttf')  format('truetype');
+  font-weight: medium;
+  font-style: normal;
+} 
+
 .header {
+  font-family: 'Exo','sans-serif';
   background: #546e7a;
   height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lightWeight{
+  font-weight: 10;
 }
 
 .header h1 {
   margin: 0;
-  padding-top: 75px;
-  text-align: center;
+  /* padding-top: 75px; */
+  /* text-align: center; */
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
 }
